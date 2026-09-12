@@ -1,0 +1,12 @@
+name: prefix-manager
+version: 0.1.0-SNAPSHOT
+main: com.springknight3.prefixmanager.PrefixManagerPlugin
+api-version: '26.2'
+description: Redeems custom prefix vouchers.
+commands:
+  redeemprefix:
+    description: Redeem a custom prefix voucher.
+    usage: /redeemprefix <prefix> <color>
+  removeprefix:
+    description: Remove your custom prefix.
+    usage: /removeprefix
